@@ -7,7 +7,7 @@ const mostrarResultado = (res) => {
   actualizarHistorial();
 };
 
-// Función para mostrar los resultados en pantalla
+// Función flecha para mostrar los resultados en pantalla
 const actualizarHistorial = () => {
   const lista = document.getElementById("historial");
   lista.innerHTML = "";
